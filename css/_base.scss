@@ -1,0 +1,42 @@
+//Colors//
+$blue: #A6BBDB;
+$yellow: #FFE76B;
+$brown: #3d1c0d;
+
+html {
+    font-size: 62.5%;
+    background-color: #FFFFF0;
+}
+
+
+body {
+    font-family: "Shippori Mincho", serif;
+    font-size: 1.5rem;
+    color: $brown;
+    p {
+        font-size: 1.5rem;
+        font-family: "Noto Sans JP", sans-serif;
+    }
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 3.4rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: $brown;
+}

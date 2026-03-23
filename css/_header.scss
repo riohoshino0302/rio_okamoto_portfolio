@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    position: fixed;
+    top: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    align-items: center;
+    z-index: 10000;
+    @media (min-width: 769px) {
+        top: 1.5rem;
+        padding: 0 5rem;
+    }
+}
+
+.header-name {
+    margin: 0;
+    color: $blue;
+    font-weight: 800;
+    font-size: 2rem;
+    @media (min-width: 769px) {
+        font-size: 3.2rem;
+        br {
+            display: none;
+        }
+    }
+}
+
+.header-button {
+    display: flex;
+    a {
+        font-size: 1.7rem;
+        letter-spacing: 0.1rem;
+        color: white;
+        font-weight: 500;
+        padding: 0.9rem 1.3rem 1rem 1.3rem;
+        @media (min-width: 769px) {
+            font-size: 2rem;
+            padding: 1rem 2rem 1.2rem 2rem;
+        }
+    }
+}
+
+.header-button-container, .header-contact {
+    background-color: $blue;
+    border-radius: 3rem;
+    margin-left: 0.8rem;
+    a {
+        display: block;
+    }
+    @media (min-width: 769px) {
+        margin-left: 2rem;
+    }
+}
+
+.header-mail {
+    i {
+        font-size: 1.7rem;
+        color: $brown;
+        @media (min-width: 769px) {
+            font-size: 2rem;
+        }
+    }
+}
+
+
+.header-contact {
+    background-color: $yellow;
+}
+

@@ -1,0 +1,33 @@
+#footer {
+    background-color: $blue;
+    color: white;
+    padding: 3rem 3rem 1rem 3rem;
+    @media (min-width: 769px) {
+        margin-top: 18rem;
+    }
+    h3 {
+        margin-top: 0;
+        @media (min-width: 769px) {
+            font-size: 5.6rem;
+            margin-bottom: 4rem;
+            padding-left: 20rem;
+        }
+    }
+    h5 {
+        font-size: 2rem;
+        margin: 2rem 0 5rem 0;
+        @media (min-width: 769px) {
+            font-size: 3.6rem;
+            margin-bottom: 8rem;
+            padding-left: 20rem;
+        }
+    }
+    p {
+        font-size: 1rem;
+        margin-bottom: 0;
+        text-align: center;
+        @media (min-width: 769px) {
+            font-size: 1.6rem;
+        }
+    }
+}

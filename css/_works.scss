@@ -1,0 +1,151 @@
+.works-main {
+    margin: 10rem 0 8rem 0;
+    font-family: "Noto Sans JP", sans-serif;
+    @media (min-width: 769px) {
+        margin-top: 15rem;
+    }
+    img {
+        width: 100%;
+        @media (min-width: 769px) {
+            height: 55rem;
+            object-fit: cover;
+        }
+    }
+}
+
+.workspage-title {
+    font-size: 1.8rem;
+    padding-left: 1.5rem;
+    @media (min-width: 769px) {
+        font-size: 3rem;
+        padding-left: 5rem;
+    }
+}
+
+.works-img-pc {
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.works-img-sp {
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.works-info-pc {
+    @media (max-width: 768px) {
+        display: none;
+    }
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 80%;
+}
+
+.works-info-sp {
+    @media (min-width: 769px) {
+        display: none;
+    }
+    box-sizing: border-box;
+    padding: 0 3rem;
+}
+
+.sp-info {
+    margin-bottom: 4rem;
+    p {
+        line-height: 2.6rem;
+        margin-top: 1rem;
+    }
+    a {
+        word-break: break-all;
+        line-height: 2.2rem;
+        text-decoration: underline;
+        margin-top: 1.5rem;
+        display: inline-block;
+    }
+}
+
+.works-url {
+    width: 100%;
+    line-height: 2.6rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+    display: inline-block;
+    
+}
+
+.sp-info-title {
+    margin-bottom: 0;
+    
+}
+
+.works-info-left, .works-info-right {
+    li {
+        list-style: none;
+        margin-bottom: 3rem;
+        font-size: 1.4rem;
+        @media (min-width: 769px) {
+            font-size: 1.6rem;
+            margin-bottom: 6rem;
+            line-height: 2.8rem;
+            
+        }
+    }
+}
+
+.works-info-left {
+    @media (min-width: 769px) {
+        padding-left: 0;
+    }
+}
+
+.works-info-right {
+    @media (min-width: 769px) {
+        padding-left: 8rem;
+        width: 45%;
+    }
+}
+
+.works-info-left li {
+    font-weight: 700;
+}
+
+.footer.footerworks {
+    margin-top: 5rem;
+}
+
+
+.works-info-pc-flex {
+    width: 45%;
+    margin: 2rem auto;
+    @media(max-width: 768px) {
+        display: none;
+    }
+}
+
+.works-info-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem 0;
+    h5 {
+        margin: 0 5rem 0 0;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+    p {
+        width: 80%;
+        font-size: 1.6rem;
+        margin: 0;
+        line-height: 2.8rem;
+    }
+    a {
+        word-break: break-all;
+        width: 80%;
+        margin: 0;
+        line-height: 2.8rem;
+    }
+}
